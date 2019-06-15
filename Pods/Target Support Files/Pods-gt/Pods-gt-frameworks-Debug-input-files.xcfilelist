@@ -1,0 +1,26 @@
+${PODS_ROOT}/Target Support Files/Pods-gt/Pods-gt-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/AliyunOSSiOS/AliyunOSSiOS.framework
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework
+${BUILT_PRODUCTS_DIR}/DTCoreText/DTCoreText.framework
+${BUILT_PRODUCTS_DIR}/DTFoundation/DTFoundation.framework
+${BUILT_PRODUCTS_DIR}/EAIntroView/EAIntroView.framework
+${BUILT_PRODUCTS_DIR}/EARestrictedScrollView/EARestrictedScrollView.framework
+${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/OpenUDID/OpenUDID.framework
+${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework
+${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/RegexKitLite/RegexKitLite.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SGQRCode/SGQRCode.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework
+${BUILT_PRODUCTS_DIR}/WPAttributedMarkup/WPAttributedMarkup.framework
+${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework

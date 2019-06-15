@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="EventListTableViewCell" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="EventListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单已付款，待放行" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocW-dv-IhT">
+                        <rect key="frame" x="69" y="19" width="120" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="Ics-dA-vEa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018.10.12 12.32" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxS-pN-qrH">
+                        <rect key="frame" x="214" y="24" width="94" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EYJ-yL-29F">
+                        <rect key="frame" x="12" y="38" width="43" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="43" id="Sug-sH-JJO"/>
+                            <constraint firstAttribute="height" constant="43.5" id="Thp-xg-1VA"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Btn_right" translatesAutoresizingMaskIntoConstraints="NO" id="lnr-eg-pD0">
+                        <rect key="frame" x="292" y="52" width="16" height="16"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您好，您的广告已被拍下，订单号为ff8080810000784e0169153c4b9200b9，等待买家确认付款。点击查看订单详情" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rV4-Ow-ZKY">
+                        <rect key="frame" x="69" y="43" width="201" height="57.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="ocW-dv-IhT" secondAttribute="trailing" constant="115" id="2V0-bE-pzz"/>
+                    <constraint firstItem="gxS-pN-qrH" firstAttribute="centerY" secondItem="ocW-dv-IhT" secondAttribute="centerY" id="B2T-do-UER"/>
+                    <constraint firstItem="EYJ-yL-29F" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="38" id="BTG-dd-rrF"/>
+                    <constraint firstItem="ocW-dv-IhT" firstAttribute="leading" secondItem="EYJ-yL-29F" secondAttribute="trailing" constant="14" id="BZq-3S-lZo"/>
+                    <constraint firstItem="rV4-Ow-ZKY" firstAttribute="leading" secondItem="EYJ-yL-29F" secondAttribute="trailing" constant="14" id="CqQ-Hn-rhY"/>
+                    <constraint firstItem="rV4-Ow-ZKY" firstAttribute="top" secondItem="ocW-dv-IhT" secondAttribute="bottom" id="I4U-J0-TrN"/>
+                    <constraint firstItem="EYJ-yL-29F" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="R8O-1s-Evh"/>
+                    <constraint firstAttribute="trailing" secondItem="lnr-eg-pD0" secondAttribute="trailing" constant="12" id="Yue-BC-I0O"/>
+                    <constraint firstItem="EYJ-yL-29F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="ZDK-Zk-k9A"/>
+                    <constraint firstAttribute="bottom" secondItem="rV4-Ow-ZKY" secondAttribute="bottom" constant="19" id="bCQ-Uc-kvk"/>
+                    <constraint firstAttribute="bottom" secondItem="EYJ-yL-29F" secondAttribute="bottom" constant="38" id="hdn-fW-zSo"/>
+                    <constraint firstAttribute="trailing" secondItem="rV4-Ow-ZKY" secondAttribute="trailing" constant="50" id="tNq-dt-dgU"/>
+                    <constraint firstAttribute="trailing" secondItem="gxS-pN-qrH" secondAttribute="trailing" constant="12" id="tcZ-xG-9tA"/>
+                    <constraint firstItem="lnr-eg-pD0" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="u5j-jy-jan"/>
+                    <constraint firstItem="ocW-dv-IhT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="yh1-6E-Msu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="EventIndo" destination="rV4-Ow-ZKY" id="MiV-Dw-TLI"/>
+                <outlet property="EventName" destination="ocW-dv-IhT" id="mB4-u2-BhT"/>
+                <outlet property="EventPic" destination="EYJ-yL-29F" id="HPc-rZ-xcq"/>
+                <outlet property="EventTime" destination="gxS-pN-qrH" id="2il-S2-Lps"/>
+            </connections>
+            <point key="canvasLocation" x="-14.4" y="147.52623688155924"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Btn_right" width="24" height="24"/>
+    </resources>
+</document>

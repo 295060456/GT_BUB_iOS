@@ -1,0 +1,173 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.10.7)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - DACircularProgress (2.3.1)
+  - DTCoreText (1.6.21):
+    - DTCoreText/Core (= 1.6.21)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.21):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.13)
+  - DTFoundation/DTAnimatedGIF (1.7.13)
+  - DTFoundation/DTHTMLParser (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.13):
+    - DTFoundation/Core
+  - EAIntroView (2.12.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - FDFullscreenPopGesture (1.1)
+  - IQKeyboardManager (6.2.1)
+  - JCore (1.2.6)
+  - JPush (3.1.2):
+    - JCore (~> 1.2.6)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.16)
+  - MJRefresh (3.1.16)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - OpenUDID (1.0.0)
+  - PureLayout (3.1.4)
+  - ReactiveObjC (3.1.1)
+  - RegexKitLite (4.0)
+  - RongCloudIM/IMKit (2.9.15):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.9.15)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SGQRCode (3.0.1)
+  - SVProgressHUD (2.2.5)
+  - TZImagePickerController (3.2.0)
+  - VerifyCode (3.0.1)
+  - WPAttributedMarkup (1.0.0)
+  - ZXingObjC/Core (3.6.5)
+  - ZXingObjC/QRCode (3.6.5):
+    - ZXingObjC/Core
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - AliyunOSSiOS
+  - Charts
+  - DTCoreText
+  - EAIntroView
+  - FDFullscreenPopGesture
+  - IQKeyboardManager
+  - JPush
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - MWPhotoBrowser
+  - OpenUDID
+  - PureLayout
+  - ReactiveObjC
+  - RegexKitLite
+  - RongCloudIM/IMKit
+  - RongCloudIM/IMLib
+  - SDWebImage
+  - SGQRCode
+  - SVProgressHUD
+  - TZImagePickerController
+  - VerifyCode
+  - WPAttributedMarkup
+  - ZXingObjC/QRCode
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AliyunOSSiOS
+    - Charts
+    - DACircularProgress
+    - DTCoreText
+    - DTFoundation
+    - EAIntroView
+    - EARestrictedScrollView
+    - FDFullscreenPopGesture
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MWPhotoBrowser
+    - OpenUDID
+    - PureLayout
+    - ReactiveObjC
+    - RegexKitLite
+    - RongCloudIM
+    - SDWebImage
+    - SGQRCode
+    - SVProgressHUD
+    - TZImagePickerController
+    - VerifyCode
+    - WPAttributedMarkup
+    - ZXingObjC
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  AliyunOSSiOS: 602b6a4e70e62a5f0a6431c20496343141d7e66f
+  Charts: ec1f57f9340054155691e84d4544a1d239d382c5
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DTCoreText: e5d688cffc9f6a61eddd1a4f94e2046851230de3
+  DTFoundation: f03be9fd786f11e505bb8fc44e2a3732bf0917df
+  EAIntroView: 249559079ddfdbe80e5bcb755c04c3b964b2ac27
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
+  JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  RongCloudIM: 1421fc79583ee08d916c1d2d361c1cdf2f2e8d9d
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SGQRCode: bf02d60e18d6660a9d75ff1c8b9b467f064f054e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: 7850b158d025065b162a1a963d445040b828abc9
+  VerifyCode: 27f855fd71ebd567521c8d052bd7e8d76a151e4c
+  WPAttributedMarkup: eb50878af4ec647d8d2090f721a5cfe7d29c27fe
+  ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
+
+PODFILE CHECKSUM: d4d6237117f48ec198d003b0b58d1a0ac468619a
+
+COCOAPODS: 1.7.1
