@@ -29,9 +29,9 @@
 }
 
 - (void)setSubview{
-  self.solveTitle.text = RCDLocalizedString(@"cs_evaluate_resolved_title");
-  [self.solvedButton setTitle:RCDLocalizedString(@"cs_evaluate_resolved") forState:(UIControlStateNormal)];
-  [self.noSolveButton setTitle:RCDLocalizedString(@"cs_evaluate_unresolved") forState:(UIControlStateNormal)];
+//  self.solveTitle.text = RCDLocalizedString(@"cs_evaluate_resolved_title");
+//  [self.solvedButton setTitle:RCDLocalizedString(@"cs_evaluate_resolved") forState:(UIControlStateNormal)];
+//  [self.noSolveButton setTitle:RCDLocalizedString(@"cs_evaluate_unresolved") forState:(UIControlStateNormal)];
 }
 
 - (void)didClickSolveButton:(UIButton *)sender{

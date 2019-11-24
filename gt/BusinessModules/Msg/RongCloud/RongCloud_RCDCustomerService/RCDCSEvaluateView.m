@@ -89,20 +89,20 @@
 }
 
 - (void)didClickSubmitButton{
-    if (self.model.isTagMust && self.model.tags.count > 0) {
-        if (self.selectTags.count == 0) {
-            [self showAlertWarning:RCDLocalizedString(@"choose_tag")];
-            return;
-        }
-    }
-    if (self.model.isInputMust && self.inputView.suggestText.text.length == 0) {
-        [self showAlertWarning:RCDLocalizedString(@"type_idea")];
-        return;
-    }
-    if (self.delegate && [self.delegate respondsToSelector:@selector(didSubmitEvaluate:star:tagString:suggest:)]) {
-        [self.delegate didSubmitEvaluate:self.resolveStatus star:self.model.score tagString:[self getTagString] suggest:self.inputView.suggestText.text];
-    }
-    [self hide];
+//    if (self.model.isTagMust && self.model.tags.count > 0) {
+//        if (self.selectTags.count == 0) {
+//            [self showAlertWarning:RCDLocalizedString(@"choose_tag")];
+//            return;
+//        }
+//    }
+//    if (self.model.isInputMust && self.inputView.suggestText.text.length == 0) {
+//        [self showAlertWarning:RCDLocalizedString(@"type_idea")];
+//        return;
+//    }
+//    if (self.delegate && [self.delegate respondsToSelector:@selector(didSubmitEvaluate:star:tagString:suggest:)]) {
+//        [self.delegate didSubmitEvaluate:self.resolveStatus star:self.model.score tagString:[self getTagString] suggest:self.inputView.suggestText.text];
+//    }
+//    [self hide];
 }
 
 - (NSString *)getTagString{
@@ -383,7 +383,7 @@
         
         UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, 50)];
         titleLabel.textColor = HEXCOLOR(0x333333);
-        titleLabel.text = RCDLocalizedString(@"remark");
+//        titleLabel.text = RCDLocalizedString(@"remark");
         titleLabel.font = [UIFont systemFontOfSize:18];
         titleLabel.textAlignment = NSTextAlignmentCenter;
         
@@ -402,7 +402,7 @@
         _submitButton = [[UIButton alloc] init];
         _submitButton.backgroundColor =  HEXCOLOR(0x0099ff);
         _submitButton.titleLabel.font = [UIFont systemFontOfSize:18];
-        [_submitButton setTitle:RCDLocalizedString(@"submit_remark") forState:(UIControlStateNormal)];
+//        [_submitButton setTitle:RCDLocalizedString(@"submit_remark") forState:(UIControlStateNormal)];
         [_submitButton addTarget:self action:@selector(didClickSubmitButton) forControlEvents:(UIControlEventTouchUpInside)];
     }
     return _submitButton;
